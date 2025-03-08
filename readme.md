@@ -1,8 +1,9 @@
-### Repistory for learning python
+### My Python Learning Repistory
 
-| No  | Name project | upload |
-| --- | ------------ | ------ |
-| 1.  | Tic-tac toe  | ✅     |
-| 3.  | Suit simple  | ❌     |
-| 4.  | Bot telegram | ❌     |
-| 5.  | Brute foce   | ❌     |
+| No  | Name project      | upload |
+| --- | ----------------- | ------ |
+| 1.  | Tic-tac toe (CLI) | ✅     |
+| 3.  | Suit simple       | ❌     |
+| 4.  | Bot telegram      | ❌     |
+| 5.  | Brutefoce         | ❌     |
+| 5.  | Spam Sms          | ❌     |
