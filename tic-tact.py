@@ -59,6 +59,7 @@ class Ttc:
         try:
             while self.acces:
                 x_p = int(input(f"[{self.player}] masukan angka : ")) - 1
+                os.system("clear")
                 cek = self.validasi_box(self.player, x_p)
                 if self.validasi_win(self.player):
                     return console.print(
@@ -66,7 +67,10 @@ class Ttc:
                     )
                 for i in range(0, len(self.box), 3):
                     console.print(
-                        f"{self.box[i]} | {self.box[i + 1]} | {self.box[i+2]} | "
+                        Panel(
+                            f"\t| {self.box[i]} | {self.box[i + 1]} | {self.box[i+2]} | ",
+                            style="green",
+                        )
                     )
                 if cek.get("repeat"):
                     console.print(

@@ -3,7 +3,7 @@
 | No  | Name project      | upload |
 | --- | ----------------- | ------ |
 | 1.  | Tic-tac toe (CLI) | ✅     |
-| 3.  | Suit simple       | ❌     |
+| 3.  | Suit simple (CLI) | ✅     |
 | 4.  | Bot telegram      | ❌     |
 | 5.  | Brutefoce         | ❌     |
 | 6.  | Spam Sms          | ❌     |
