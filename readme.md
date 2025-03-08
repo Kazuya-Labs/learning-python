@@ -6,4 +6,4 @@
 | 3.  | Suit simple       | ❌     |
 | 4.  | Bot telegram      | ❌     |
 | 5.  | Brutefoce         | ❌     |
-| 5.  | Spam Sms          | ❌     |
+| 6.  | Spam Sms          | ❌     |
