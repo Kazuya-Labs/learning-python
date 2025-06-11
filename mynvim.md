@@ -27,3 +27,23 @@ return {
   end,
 }
 ```
+### LINTING
+```lua
+return {config = function()
+  local null_ls = require("null-ls")
+  null_ls.setup({
+    sources = {
+      -- Linter
+      null_ls.builtins.diagnostics.eslint,   -- ESLint
+      null_ls.builtins.diagnostics.pyright,  -- Pyright 
+    },
+  })
+
+  -- Autocommand: Jalankan linting saat keluar dari Insert Mode (ESC)
+  vim.api.nvim_create_autocmd("InsertLeave", {
+    callback = function()
+      vim.lsp.buf.lint()
+    end,
+  })
+end,}
+```
